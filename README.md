@@ -17,6 +17,8 @@ Model Folder must have:
 -For overcome Local pc limited resources "pip install accelerate>=0.26.0"
 -install Pdf liberary "pip install pypdf chromadb"
 -pip install torch transformers chromadb
+- LLaMA 3.2 model is sharded and stored in .safetensors format, ctransformers won't work because it only supports GGUF models.
+-  pip install --upgrade transformers safetensors torch
 
 
      
